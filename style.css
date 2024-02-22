@@ -52,10 +52,11 @@ a{
 }
 
 a:hover{
-  color: grey;
+  color: #11a372;
   text-decoration: underline;
   text-underline-offset:1rem ;
-  text-decoration-color: rgba(181,181,181);
+  /* text-decoration-color: rgba(181,181,181); */
+  text-decoration-color: #11a372
 }
 
 .logo{
@@ -154,13 +155,15 @@ max-height: 300px;
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 100vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
 
-.section-container {
+
+
+.section-container, .section-container-pe {
   display: flex;
 }
 
@@ -233,38 +236,29 @@ section {
 .btn {
   font-weight: 600;
   transition: all 300ms ease;
-  padding: 1rem;
+  padding: 0.9rem;
   width: 8rem;
   border-radius: 2rem;
 }
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: #11a372 0.1rem solid;
+  background-color: white;
+  color: #11a372;
 }
 
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
-}
-
-.btn-color-1,
-.btn-color-2:hover {
-  background: rgb(53, 53, 53);
   color: white;
+  background-color: #11a372;
 }
 
-.btn-color-1:hover {
-  background: rgb(0, 0, 0);
-}
 
-.btn-color-2 {
-  background: none;
-}
 
-.btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
-}
+
+
 
 .btn-container {
   gap: 1rem;
@@ -272,10 +266,13 @@ section {
 
 /* ABOUT SECTION */
 
-#about, #certifications {
+#about, #certifications, #permit-experience {
   position: relative;
 }
 
+#permit-experience{
+  /* background-color: #11a372; */
+}
 .about-containers {
   margin-top: 2rem;
 }
@@ -320,7 +317,7 @@ section {
   text-align: justify;
 }
 
-.section-container {
+.section-container, .section-container-pe {
   gap: 4rem;
   height: 80%;
 }
@@ -389,11 +386,6 @@ section {
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
 
 .article-container {
   display: flex;
@@ -503,11 +495,128 @@ footer p {
 /*  */
 .reference-email:hover, .no-decoration:hover{
   text-decoration: none;
-  color: darkorange;
+  color: #11a372;
 
 }
 
 .no-decoration, .reference-email{
   color: cornflowerblue;
 
+}
+
+/* 
+ */
+#permit-experience{
+  position: relative;
+}
+
+
+
+ #Licence-Experience{
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+}
+.licence, .experience{
+  display: inline-block;
+}
+.licence{
+  /* background-color: rebeccapurple; */
+}
+
+.experience{
+  /* background-color: antiquewhite; */
+}
+.permit-img{
+  height: 2rem;
+}
+
+.permit-lists-1{
+  display: flex;
+  justify-content: space-between;
+  /* flex: 1; */
+}
+.permit-tile {
+  border: 1px solid #B0B0B0;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  min-width: 10rem;
+  min-height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.permit-p{
+  font-size: 0.8rem;
+  color: black;
+  text-align: center;
+}
+
+.section__permit{
+  display: flex;
+  justify-content: center;
+  /* margin: auto 0; */
+}
+
+.permit-p{
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+/* experience */
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: #11a372; */
+
+}
+
+#permit-experience{
+  padding-top: 4vh;
+  height: 140vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+
+}
+.exp-div{
+  background-color: rgb(255, 252, 252);
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #cccccc;
+}
+
+.experience-details-container{
+  justify-content: center;
+  flex-direction: column;
+  /* display: inline; */
+
+}
+.date{
+  font-size: 0.9rem;
+  color: #11a372;
+
+  
+}
+.job{
+  display: flex;
+  align-items: center;
+}
+
+.job-title{
+  font-size: 1.1rem;
+}
+
+.job-type-location{
+  font-size: 0.8rem;
+  color: cornflowerblue;;
+}
+
+.job-explaination{
+  font-size: 0.8rem;
+  text-align: justify;
 }

@@ -24,17 +24,17 @@
     margin-top: 2rem;
   }
   #profile,
-  .section-container {
+  .section-container, .section-container-pe {
     display: block;
   }
   .arrow {
     display: none;
   }
-  section,
-  .section-container {
+  section,#permit-experience,
+  .section-container, .section-container-pe {
     height: fit-content;
   }
-  section {
+  section, #permit-experience {
     margin: 0 5%;
   }
   .section__pic-container {
@@ -121,6 +121,15 @@
   .certification-para{
     padding: 1rem 0;
     
+  }
+  #Licence-Experience {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .licence, .experience {
+    display: inline-block;
+    width: 100%; 
   }
   
 }
