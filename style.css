@@ -332,6 +332,7 @@ section {
 .profileImg{
   border-radius: 50%;
 }
+
 /* education */
 
 .education-containers {
@@ -550,7 +551,7 @@ footer p {
 }
 
 .permit-p{
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: black;
   text-align: center;
 }
@@ -561,19 +562,8 @@ footer p {
   /* margin: auto 0; */
 }
 
-.permit-p{
-  font-size: 0.8rem;
-  margin-top: 0.5rem;
-}
 
 /* experience */
-.experience-details-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  /* background-color: #11a372; */
-
-}
 
 #permit-experience{
   padding-top: 4vh;
@@ -609,6 +599,7 @@ footer p {
 
 .job-title{
   font-size: 1.1rem;
+  margin-right: 10px;
 }
 
 .job-type-location{
