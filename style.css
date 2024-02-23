@@ -208,6 +208,7 @@ section {
 
 .title-2{
   font-size: 2rem;
+  text-align: center;
 
 }
 
@@ -370,7 +371,9 @@ section {
   justify-content: center;
 }
 .certification-para{
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
+  padding-bottom: 10px;
+  font-size: 0.8rem;
   
 }
 
@@ -504,7 +507,9 @@ footer p {
   color: cornflowerblue;
 
 }
-
+.no-decoration{
+  font-size: 0.7rem;
+}
 /* 
  */
 #permit-experience{
@@ -518,12 +523,10 @@ footer p {
   /* background-color: red; */
   justify-content: space-between;
 }
-.licence, .experience{
+.licence, .experience, certification{
   display: inline-block;
 }
-.licence{
-  /* background-color: rebeccapurple; */
-}
+
 
 .experience{
   /* background-color: antiquewhite; */
@@ -549,6 +552,18 @@ footer p {
   justify-content: center;
   align-items: center;
 }
+.certification-tile {
+  border: 1px solid #B0B0B0;
+  padding: 1rem;
+  margin: 1rem;
+  /* border-radius: 1rem; */
+  /* min-width: 10rem; */
+  /* min-height: 8rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
 
 .permit-p{
   font-size: 0.9rem;
@@ -557,6 +572,11 @@ footer p {
 }
 
 .section__permit{
+  display: flex;
+  justify-content: center;
+  /* margin: auto 0; */
+}
+.section__certification{
   display: flex;
   justify-content: center;
   /* margin: auto 0; */
@@ -579,7 +599,10 @@ footer p {
   margin: 1rem;
   border: 1px solid #cccccc;
 }
-
+.exp-div:hover{
+  cursor: pointer;
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
 .experience-details-container{
   justify-content: center;
   flex-direction: column;
@@ -610,4 +633,20 @@ footer p {
 .job-explaination{
   font-size: 0.8rem;
   text-align: justify;
+}
+
+/* certification */
+.certification-title{
+  font-size: 0.9rem;
+  /* color: #11a372; */
+
+  
+}
+
+.certification-link{
+  color: cornflowerblue;
+  font-size: 0.7rem;
+}
+.certi-individual{
+  padding: 5px 0;
 }

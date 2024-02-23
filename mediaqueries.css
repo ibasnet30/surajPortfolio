@@ -169,7 +169,7 @@
     justify-content: space-between;
   }
   
-  .licence, .experience {
+  .licence, .experience, .certification {
     display: inline-block;
     width: 100%; 
   }
@@ -254,7 +254,7 @@
 
   }
 }
-@media screen and (max-width: 307px) {
+@media screen and (max-width: 356px) {
   .section__pic-container-2 {
     width: auto;
     /* background-color: rebeccapurple; */
@@ -265,6 +265,21 @@
   .about-pic{
     height: 150px
 
+  }
+
+  .certification-title{
+    font-size: 0.5rem;
+  
+    
+  }
+
+  .certification-link{
+    font-size: 0.6rem;
+    color: cornflowerblue;
+    /* font-size: 0.7rem; */
+  }
+  .certi-individual{
+    padding: 5px 0;
   }
 }
 
