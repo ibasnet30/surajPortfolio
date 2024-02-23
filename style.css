@@ -553,13 +553,13 @@ footer p {
   align-items: center;
 }
 .certification-tile {
-  border: 1px solid #d0d0d0;
+  border: 1px solid #B0B0B0;
   padding: 1rem;
   margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .permit-p{
