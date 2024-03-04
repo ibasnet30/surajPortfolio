@@ -17,7 +17,9 @@
   }
 }
 
+
 @media screen and (max-width: 1201px) {
+  
   #desktop-nav {
     display: none;
   }
@@ -61,7 +63,18 @@
   }
 }
 
+@media screen and (max-width: 950px) {
+  .techImage{
+    width: 0px;
+  }
+}
 @media screen  and (max-width: 705px) {
+
+  .techImage{
+    display: none;
+  }
+
+  
 
   .education-div {
     display: block;
@@ -75,6 +88,12 @@
 }
 
 @media screen and (max-width: 650px) {
+  .skill-title{
+  
+    font-size: 0.8rem;
+    margin: 5px;
+  }
+ 
   .permit-lists-1 {
     display: flex;
     justify-content: center;
@@ -272,6 +291,8 @@
   
     
   }
+ 
+  
 
   .certification-link{
     font-size: 0.6rem;
