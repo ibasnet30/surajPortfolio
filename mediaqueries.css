@@ -38,6 +38,11 @@
   .section-container, .section-container-pe {
     display: block;
   }
+
+  #profile{
+    height: 83vh;
+    display: flex;
+  }
   .arrow {
     display: none;
   }
